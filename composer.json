@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/symfony": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SymFromScratch\\": "src/"
+        },
+        "files": [
+            "app/AppKernel.php"
+        ]
+    }
+}
