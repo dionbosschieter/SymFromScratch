@@ -17,7 +17,9 @@ final class HelloController extends Controller
      */
     public function helloAction(Request $request)
     {
-        return new Response('Hello ' . $request->get('name') ?: 'World',
+        $name = $request->get('name') ?: 'World';
+
+        return new Response('Hello ' . $name,
             200,
             ['Content-Type' => 'text/plain']
         );
