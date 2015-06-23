@@ -1,2 +1,2 @@
 # SymFromScratch
-Symfony 2.7 folder basic structure built from scratch.
+Symfony 2.7 basic folder structure built from scratch.
